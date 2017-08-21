@@ -155,7 +155,7 @@ set width: @width, height: @height, title: "Eclipse"
 @sun_d = 50
 @sun = Image.new(width: @sun_d, height: @sun_d, path: './sun.png', z: 0)
 @you_d = 10
-@you = Image.new(width: @sun_d/4, height: @sun_d/4, x: @width/2, y: 0, path: './moon.png')
+@you = Rectangle.new(width: @sun_d/4, height: @sun_d/4, x: @width/2, y: 0, color: 'blue')
 
 @horizon = Rectangle.new(x: 0, y: 0, width: @width, height: 1, z: 0, color: 'green')
 
