@@ -184,9 +184,9 @@ update do
   draw
 end
 
-on :key do |event|
+on :key_down do |event|
   # puts event.inspect
-  if event[:type] == :down && !@moving
+  if !@moving
     case event[:key]
     when 'right'
       @moving = true
