@@ -74,7 +74,8 @@ class Eclipse < Gosu::Window
     ['1 Hour', 60, 60],
     ['1 Day', 24, 3600],
     ['30 Days', 30, 86400],
-    ['365 Days', 365, 86400]
+    ['365 Days', 365, 86400],
+    ['5 years', 5, 86400*365.25]
   ]
 
   def initialize
