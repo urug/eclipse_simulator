@@ -147,7 +147,7 @@ end
 @height = 746
 set width: @width, height: @height, title: "Eclipse"
 
-@caption = Text.new(x: 5, y: 5, text: "Eclipse", size: 30, font: '/Users/mnielsen/Downloads/Random_font.ttf')
+@caption = Text.new(x: 5, y: 5, text: "Eclipse", size: 30, font: './Random_font.ttf')
 # @caption.color = 'fuchsia'
 
 @moon_d = 49
@@ -159,8 +159,8 @@ set width: @width, height: @height, title: "Eclipse"
 
 @horizon = Rectangle.new(x: 0, y: 0, width: @width, height: 1, z: 0, color: 'green')
 
-# @coords = [40.768860, -111.893273] # Salt Lake City, Utah
-@coords = [43.833333, -110.700833] # grand teton NP, 11:36am
+@coords = [40.768860, -111.893273] # Salt Lake City, Utah
+# @coords = [43.833333, -110.700833] # grand teton NP, 11:36am
 
 @current_time = Time.parse('2017-08-21 10:36:00') # grand teton NP totality, in MST/MDT time
 # @current_time = Time.parse('1978-04-07 06:28:00 -070') # Bonus: 1978 Eclipse, near-totality in grand teton NP
